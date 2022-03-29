@@ -45,11 +45,15 @@ header{
 
 /* MAIN */
 .about{
+    color: white;
     background-color: #1ABC9C;
 }
 
 
 /* FOOTER */
+footer{
+    color:white;
+}
 .top-foot{
     background-color: #3A546D;
 }

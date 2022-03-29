@@ -36,6 +36,7 @@ header{
 }
 /* jumbotron */
 .jumbotron{
+    text-align: center;
     background-color: #1ABC9C;
 }
 
@@ -54,5 +55,6 @@ footer{
     background-color: #3A546D;
 }
 .copyright{
+    text-align: center;
     background-color: #2C3E50;
 }

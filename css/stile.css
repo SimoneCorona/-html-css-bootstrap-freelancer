@@ -1,0 +1,58 @@
+/* COMMON */
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.line{
+    display: flex;
+    color: inherit;
+}
+/* debug colors */
+.red{
+    background-color: #BA4B63;
+}
+.lightblue{
+    background-color: #1EA4B6;
+}
+.black{
+    background-color: #140F0F;
+}
+.turquese{
+    background-color: #1C83C1;
+}
+.blue{
+    background-color: #0E38B5;
+}
+.cream{
+    background-color: #CCB2A3;
+}
+/* HEADER  */
+header{
+    color: white;
+}
+.top-head{
+    background-color: #2C3E50;
+}
+.fa-bars{
+    height: 10px;
+    color: white;
+}
+/* jumbotron */
+.jumbotron{
+    background-color: #1ABC9C;
+}
+
+/* MAIN */
+.about{
+    background-color: #1ABC9C;
+}
+
+
+/* FOOTER */
+.top-foot{
+    background-color: #3A546D;
+}
+.copyright{
+    background-color: #2C3E50;
+}

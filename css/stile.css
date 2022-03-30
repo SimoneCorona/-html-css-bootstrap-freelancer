@@ -37,7 +37,16 @@ ul{
     background-color: #fff;
     border-color: #1ABC9C;
 }
-
+.ms_contact-form .form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 0;
+}
+.ms_contact-form .form-control:focus{
+    box-shadow: none;
+}
 /* HEADER  */
 header{
     color: white;

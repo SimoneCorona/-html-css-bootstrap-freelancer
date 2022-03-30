@@ -82,7 +82,7 @@ header{
     width: 100%;
     border-radius: 10%;
 }
-.layover::before{
+.layover{
     display: none;
     content: "";
     position: absolute;
@@ -91,10 +91,16 @@ header{
     width: 100%;
     height: 100%;
     border-radius: 10%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.ms_portfolio_item:hover .layover::before{
-    display: inline-block;
+.fa-plus{
+    color: white;
+    font-size: 2em;
+}
+.ms_portfolio_item:hover .layover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 100;
 }
 /* FOOTER */

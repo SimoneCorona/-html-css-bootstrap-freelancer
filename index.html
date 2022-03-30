@@ -15,18 +15,24 @@
 <!-- HEADER -->
     <header>
         <div class="container-fluid p-0">
-            <section class="top-head py-2">
-                <div class="row gx-0">
-                    <div class="col-10 col-md-6 text-center">
-                        <h1>START BOOTSTRAP</h1>
-                    </div>
-                    <div class="col-2 col-md-6 text-end">
-                        portfolio
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-light top-head">
+                <div class="container-fluid">
+                    <h1 class="ms-5">START BOOTSTRAP</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        
+                  <div class="collapse navbar-collapse flex-grow-0 text-center" id="navbarSupportedContent">
+                    <form class="d-flex">
+                      <p class="me-1 mb-0">PROFILO</p>
+                      <p class="me-1 mb-0">ABOUT</p>
+                      <p class="me-5 mb-0">CONTACT</p>
+                    </form>
+                  </div>
                 </div>
-            </section>
+            </nav>
         <!-- jumbotron -->
-            <section class="ms_jumbotron">
+            <section class="ms_jumbotron py-4">
                 <div class="container">
                     <img class="logo_avatar" src="img/avatar.svg" alt="">
                     <h1>START BOOTSTRAP</h1>
@@ -49,7 +55,7 @@
     <main>
         <div class="container-fluid">
             <!-- portfolio -->
-            <section class="portfolio">
+            <section class="portfolio pb-4">
                 <h2 class="text-center">PORTFOLIO</h2>
                 <div class="ms_divider">
                     <div class="ms_line_black"></div>
@@ -59,32 +65,32 @@
                 <div class="ms_container_sm">
                     <div class="row g-4">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/cabin.png" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/cake.png" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/circus.png" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/game.png" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/safe.png" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="ms_portfolio_item">
+                            <div class="ms_portfolio_item layover">
                                 <img src="img/submarine.png" alt="">
                             </div>
                         </div>
@@ -93,7 +99,7 @@
             </section>
         </div>    
         <!-- about -->
-        <section class="about">
+        <section class="about pt-4">
             <div class="ms_container_sm">
                 <div class="container-fluid">
                     <h2 class="text-center">ABOUT</h2>
@@ -110,6 +116,7 @@
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ducimus porro quos sit possimus, dolores dignissimos, ut minima quis corrupti animi impedit reiciendis tempora nemo quibusdam ratione tenetur at adipisci.</p>
                         </div>
                     </div>
+                    <!-- download button -->
                     <button type="button" class="btn ms_btn-green">
                         <span><i class="fas fa-download me-2"></i>Download</span>
                     </button>   
@@ -146,6 +153,10 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
+                        <!-- send button -->
+                        <button type="button" class="btn ms_btn-green">
+                            <span><i class="fas fa-download me-2"></i>Send</span>
+                        </button> 
                     </div>    
                 </div>    
             </div>
@@ -170,7 +181,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <p>ABOUT FREELANCER</p>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a>Start Bootstrap</a></p>
                         </div>
                     </div>
                 </div>

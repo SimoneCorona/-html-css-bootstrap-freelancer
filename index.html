@@ -12,40 +12,42 @@
     <link rel="stylesheet" href="css/stile.css">
 </head>
 <body>
+<!-- HEADER -->
     <header>
         <div class="container-fluid p-0">
             <section class="top-head">
-                <div class="row">
-                    <div class="col">
+                <div class="row gx-0">
+                    <div class="col-10 col-md-6">
                         <h1>START BOOTSTRAP</h1>
                     </div>
-                    <div class="col">
-                        <ul>
-                            <li>PORTFOLIO</li>
-                            <li>ABOUT</li>
-                            <li>CONTACT</li>
-                        </ul>
+                    <div class="col-2 col-md-6 text-end">
+                        portfolio
                     </div>
                 </div>
             </section>
-            <section class="jumbotron">
-                <img src="" alt="">
-                <h1>START BOOTSTRAP</h1>
-                <div class="divider">
-                    <div class="line"></div>
-                    <i></i>
-                    <div class="line"></div>
+            <section class="ms_jumbotron">
+                <div class="container">
+                    <img src="" alt="">
+                    <h1>START BOOTSTRAP</h1>
+                    <div class="divider">
+                        <div class="line"></div>
+                        <i></i>
+                        <div class="line"></div>
+                    </div>
+                    <ul class="justify-content-center p-0">
+                        <li>GRAPHIC ARTIST -</li>
+                        <li>WEB DESIGNER -</li>
+                        <li>ILLUSTRATOR</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>GRAPHIC ARTIST -</li>
-                    <li>WEB DESIGNER -</li>
-                    <li>ILLUSTRATOR</li>
-                </ul>
             </section>
         </div>
     </header>
-    <div>
-        <div class="container-fluid"></div>
+
+<!-- MAIN -->
+    <main>
+        <div class="container-fluid">
+            <!-- portfolio -->
             <section class="portfolio">
                 <h2>PORTFOLIO</h2>
                 <div class="divider">
@@ -53,54 +55,80 @@
                     <i></i>
                     <div class="line"></div>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
 
+                        </div>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
+                            
+                        </div>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
+                            
+                        </div>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
+                            
+                        </div>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
+                            
+                        </div>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="ms_portfolio_item">
+                            
+                        </div>
                     </div>
                 </div>
             </section>
         </div>    
+
+<!-- about -->
         <section class="about">
-            <h2>ABOUT</h2>
-            <div class="divider">
-                <div class="line"></div>
-                <i></i>
-                <div class="line"></div>
-            </div>
-            <div class="row">
-                <div class="col"></div>
-                <div class="col"></div>
+            <div class="ms_container_sm">
+                <div class="container-fluid">
+                    <h2>ABOUT</h2>
+                    <div class="divider">
+                        <div class="line"></div>
+                        <i></i>
+                        <div class="line"></div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-12 col-md-6">
+                
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                        </div>
+                    </div>
+                </div>    
             </div>
         </section>
+<!-- contact-me -->
         <section class="contact-me">
-            <h2>CONTACT ME</h2>
-            <div class="divider">
-                <div class="line"></div>
-                <i></i>
-                <div class="line"></div>
-                <ul>
-                    <li>Name</li>
-                    <li>Email Address</li>
-                    <li>Phone Number</li>
-                </ul>
-                <p>Message</p>
+            <div class="ms_container_sm">
+                <div class="container-fluid">
+                    <h2>CONTACT ME</h2>
+                    <div class="divider">
+                        <div class="line"></div>
+                        <i></i>
+                        <div class="line"></div>
+                    </div>
+                    <ul>
+                        <li>Name</li>
+                        <li>Email Address</li>
+                        <li>Phone Number</li>
+                    </ul>
+                    <p>Message</p>
 
-
+                </div>    
             </div>
         </section>
     </main>
@@ -108,17 +136,17 @@
         <div class="top-foot">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-4">
                         <p>LOCATION</p>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-4">
                         <p>AROUND THE WEB</p>
                         <span>
 
                         </span>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-4">
                         <p>ABOUT FREELANCER</p>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>
                     </div>
@@ -126,7 +154,9 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright  Your Website 2019</p>
+            <div class="container-fluid">
+                <p>Copyright  Your Website 2019</p>
+            </div>    
         </div>
     </footer>
 </body>

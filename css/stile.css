@@ -8,6 +8,12 @@ ul{
     display: flex;
     color: inherit;
 }
+.ms_container_sm{
+    max-width: 1170px;
+    width: 60%;
+    margin: 0 auto;
+
+}
 /* debug colors */
 .red{
     background-color: #BA4B63;
@@ -35,7 +41,7 @@ header{
     background-color: #2C3E50;
 }
 /* jumbotron */
-.jumbotron{
+.ms_jumbotron{
     text-align: center;
     background-color: #1ABC9C;
 }
@@ -52,6 +58,7 @@ footer{
     color:white;
 }
 .top-foot{
+    text-align: center;
     background-color: #3A546D;
 }
 .copyright{

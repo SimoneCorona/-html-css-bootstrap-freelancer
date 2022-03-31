@@ -55,7 +55,7 @@ ul{
 header{
     color: white;
 }
-.top-head{
+.ms_top-head{
     background-color: #2C3E50;
 }
 .top-head h1{
@@ -114,6 +114,26 @@ footer p{
     text-align: center;
     background-color: #3A546D;
 }
+.ms_socials{
+    justify-content: center;
+    margin-top: 0.5em;
+    padding: 0;
+    list-style: none;
+}
+.ms_socials li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+.ms_socials a{
+    display: inline-block;
+    color: inherit;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 .copyright{
     font-size: 0.7em;
     background-color: #2C3E50;
